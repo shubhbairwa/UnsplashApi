@@ -9,8 +9,9 @@ interface UnsplashApi {
 
     companion object{
         const val BASE_URL = "https://api.unsplash.com/"
-     //   const val CLIENT_ID=BuildConfig.UNSPLASH_ACCESS_KEY//
-        const val CLIENT_ID="UkcAjo4Zas_JBgcx0FSKaDJ79LXc3z45flSw0-_xUBk"
+
+        //todo add your unsplash api key
+        const val CLIENT_ID="your unsplash key"
     }
 
     @Headers("Accept-Version: v1", "Authorization: Client-ID $CLIENT_ID")
